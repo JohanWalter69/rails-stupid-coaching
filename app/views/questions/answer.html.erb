@@ -1,0 +1,17 @@
+<h1>STUPID COACHING</h1>
+
+<%# <form action="/answer" data-turbo="false">
+  <input type="text" name="answer">
+  <input type="submit" value="Answer!">
+</form> %>
+
+<h2>Questions</h2>
+<span class="border-left-2">
+<br>
+<%= @ask %>
+<hr>
+</span>
+<h2>Answer</h2>
+<%= @answer %>
+<br>
+<%= link_to "Return to Ask!", ask_path  %>
